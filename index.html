@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Digit Recognizer (kNN)</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="app">
+            <h1>Handwritten Digit Recognizer</h1>
+
+            <div class="controls">
+                <button id="clearBtn">Clear</button>
+            </div>
+
+            <canvas id="drawingCanvas"></canvas>
+
+            <div class="bars-section">
+                <h3>Confidence Levels</h3>
+                <div id="barsContainer"></div>
+            </div>
+
+            <div id="results">
+                <h3>Prediction:</h3>
+                <div id="predictionOutput">Draw a digit...</div>
+            </div>
+
+            <div class="preview-section">
+                <h3>28x28 Preview</h3>
+                <canvas id="previewCanvas"></canvas>
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>

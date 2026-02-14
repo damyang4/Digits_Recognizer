@@ -1,0 +1,12 @@
+{
+  "name": "digits-recognizer",
+  "version": "1.0.0",
+  "description": "Digit recognizer with kNN backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
